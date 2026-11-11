@@ -172,7 +172,7 @@ nav ul a:hover{
     .flexer{
      display: flex;
 
-     /* gap can be used to put space between flexed elemets */
+     /* gap can be used to put space between flexed elements */
      gap: 1em;
     }
 
