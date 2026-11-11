@@ -47,3 +47,11 @@ table {
 	border-spacing: 0;
 }
 
+/* ----------------------------------
+            MAIN STYLES
+-----------------------------------*/
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
