@@ -180,7 +180,7 @@ nav ul a:hover{
         flex-grow: 3;
 
         display: flex;
-        /* use justify content to spread out the felxbox examples in main to take up the same amount of space as the larger aside */
+        /* use justify content to spread out the flexbox examples in main to take up the same amount of space as the larger aside */
         flex-direction: column;
         justify-content: space-between;
     }
