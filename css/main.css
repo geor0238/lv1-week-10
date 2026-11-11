@@ -100,3 +100,34 @@ section:nth-of-type(2) article{
     /* flex-direction lets you control which way the elements stack - whether horizontally (row) or vetically (column) - or in reverse */
     flex-direction: row-reverse;
 }
+
+section:nth-of-type(3) article{
+    display: flex;
+
+    /* justify-content allows you to control how elements are distrubuted in their parent 
+    flex-start  and flex-end are defined based on reading direction of the users language
+    - space-between puts an qual amount of space between elements
+    - space-around adds an equal amount of space on either side of each element
+    - space-evenly equally disributes the elements in the available space
+    */
+    justify-content: space-around;
+}
+
+section:nth-of-type(4) article{
+    display: flex;
+}
+
+/* you can tell the flexed elements to grow to take up the available space*/
+
+section:nth-of-type(4) article div{
+    flex-grow: 1;
+}
+
+section:nth-of-type(4) article div:nth-of-type(2){
+/* tell the second div to take up twice as much space as the others */
+    flex-grow: 2;
+}
+
+/* ----------------------------------
+            FLEXBOX STYLES
+-----------------------------------*/
