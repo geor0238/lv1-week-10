@@ -129,5 +129,35 @@ section:nth-of-type(4) article div:nth-of-type(2){
 }
 
 /* ----------------------------------
-            FLEXBOX STYLES
+        FLEXBOX NAV EXAMPLE
 -----------------------------------*/
+
+nav ul{
+    display: flex;
+
+    /* yoy can tell the content to wrap if it doesn't fit */
+    flex-wrap: wrap;
+
+    /* for text based nav, distribute the content evenly
+    justify-content: space-evenly; */
+}
+
+nav li{
+    /* tell the list items to grow to fill the available space */
+    flex-grow: 1;
+
+
+/* make the list items display flex so we can tell the a tags inside to fill up the space */
+    display: flex;
+}
+
+nav ul a{
+    flex-grow: 1;
+    padding: 10px;
+    background-color: rgb(185, 184, 250);
+    text-align: center;
+}
+
+nav ul a:hover{
+    background-color: rgb(255, 205, 242);
+}
