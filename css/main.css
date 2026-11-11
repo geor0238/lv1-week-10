@@ -54,4 +54,17 @@ table {
 .container{
     max-width: 900px;
     margin: 0 auto;
+    background-color: rgb(216, 196, 234);
 }
+
+h1{
+    font-size: 2.2em;
+    /* em is relative to the current font size - default font size is 16px
+    2.2 em = 16 * 2.2 = 35.2px */
+
+    padding: 0.5em;
+    /* because the font size of this element is set to 2.2em (or 35.2px),
+    setting padding with em is relative to that font size
+    0.5 * 35.2 = 17.6px */
+}
+
